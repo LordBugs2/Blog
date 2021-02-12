@@ -1,0 +1,40 @@
+input {
+  text-align: center;
+  background-color: inherit;
+  border-style: solid;
+  padding: 0 0;
+  margin: 0 0;
+  height: 30px;
+  width: 40%;
+  font-size: large;
+  font-family: "Roboto", sans-serif;
+  border-radius: 30px;
+  color: #bee5d3;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+button {
+  color: #6930c3;
+  background-color: #252525;
+  box-shadow: none;
+  width: 10%;
+  outline: none;
+  box-shadow: none;
+  border-style: solid;
+  border-radius: 15px;
+  height: 40px;
+}
+
+button:hover {
+  width: 13%;
+
+  cursor: pointer;
+  outline: none;
+}

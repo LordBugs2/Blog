@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap");
+.header {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-title {
+  font-size: 72px;
+  color: #bee5d3;
+  font-family: "Lora", serif;
+}
